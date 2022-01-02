@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFD39A;
+}
+.container {
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    margin: -25px 0 0 -25px;
+ 
+}
+.box {
+    border: 2px solid #876445;
+    padding: 2%;
+    margin: 1%;
+    cursor: pointer;
+    width: 10vw;
+    height: 10vh;
+}
+.box1 {
+    background-image: url('drum.jpg');
+    background-size: cover;
+}
+.box2 {
+    background-image: url('chimes2.jpg');
+    background-size: cover;
+}
+.box3 {
+    background-image: url('guitar2.jpeg');
+    background-size: cover;
+}
+.box4 {
+    background-image: url('cymbal2.jpg');
+    background-size: cover;
+}
+.box5 {
+    background-image: url('wood2.jpg');
+    background-size: cover;
+}
+.header {
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    bottom: 100%;
+    font-size: 100px;
+    width: 100vw;
+    
+}
